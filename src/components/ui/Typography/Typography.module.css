@@ -1,0 +1,43 @@
+@import '../../../styles/variables.css';
+
+.h1 {
+  font-size: clamp(2.5rem, 8vw + 1rem, 4.5rem);
+  font-weight: 800;
+  color: var(--color-text-main);
+  letter-spacing: -0.02em;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.h2 {
+  font-size: clamp(1.75rem, 4vw + 1rem, 2.5rem);
+  font-weight: 700;
+  color: var(--color-text-main);
+  margin-bottom: 24px;
+}
+
+.h3 {
+  font-size: clamp(1.25rem, 2vw + 1rem, 1.75rem);
+  font-weight: 600;
+  color: var(--color-text-main);
+}
+
+.body {
+  font-size: clamp(1rem, 0.5vw + 0.8rem, 1.15rem);
+  line-height: 1.7;
+  color: var(--color-text-main);
+}
+
+.desc {
+  font-size: clamp(0.875rem, 0.3vw + 0.8rem, 1rem);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.tag {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
