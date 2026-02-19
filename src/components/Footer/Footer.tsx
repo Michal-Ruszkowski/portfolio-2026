@@ -15,7 +15,7 @@ const Footer = () => {
       <div className={styles.footerContent}>
         <div className={styles.contactSection}>
           <Button 
-            href="mailto:twoj@email.com" 
+            href="mailto:michrusz89@gmail.com" 
             variant="primary" 
             className={styles.mainEmail}
           >
@@ -24,7 +24,7 @@ const Footer = () => {
 
           <div className={styles.socialLinks}>
             <a 
-              href="https://linkedin.com/in/twojprofil" 
+              href="https://www.linkedin.com/in/micha%C5%82-ruszkowski-b663801ba/" 
               target="_blank" 
               rel="noopener" 
               className={styles.socialLink}
@@ -32,7 +32,7 @@ const Footer = () => {
               <Typography variant="body">LinkedIn</Typography>
             </a>
             <a 
-              href="https://github.com/twojgithub" 
+              href="https://github.com/Michal-Ruszkowski" 
               target="_blank" 
               rel="noopener" 
               className={styles.socialLink}
