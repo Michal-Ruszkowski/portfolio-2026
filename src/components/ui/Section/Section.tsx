@@ -53,7 +53,7 @@ const Section = ({
       id={id} 
       className={`${styles.section} ${isAlternative ? styles.alternativeBg : ''} ${Component === 'footer' ? styles.isFooter : ''}`}
     >
-      <div className={styles.container}>
+      <div className="container">
         <Typography variant="h2" className={styles.sectionTitle}>
           {title}
         </Typography>
