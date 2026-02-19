@@ -33,6 +33,10 @@
   color: var(--color-primary);
 }
 
+.socialLink:hover * {
+  color: inherit;
+}
+
 .cvSection {
   display: flex;
   flex-direction: column;
