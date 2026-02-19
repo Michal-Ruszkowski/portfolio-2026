@@ -1,0 +1,90 @@
+.projectsSection {
+  padding: 120px 0;
+  background-color: var(--color-bg-surface);
+}
+
+.sectionTitle {
+  text-align: center; /* Tytuł na środku */
+  margin-bottom: 80px;
+  font-size: 3rem; /* Większy, korporacyjny nagłówek */
+  letter-spacing: -2px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 120px; /* Bardzo duże odstępy między projektami */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px; /* Odstępy między elementami wewnątrz karty */
+  background: transparent; /* Brak bordera, brak tła */
+}
+
+.imageWrapper {
+  width: 100%;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12); /* Głęboki, miękki cień zamiast ramki */
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card:hover .image {
+  transform: scale(1.03);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.category {
+  color: var(--color-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--color-text-muted);
+  max-width: 700px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tagItem {
+  font-size: 0.85rem;
+  padding: 6px 16px;
+  background-color: var(--color-bg-surface);
+  border-radius: 8px;
+  color: var(--color-text-main);
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Przyciski jeden pod drugim */
+  gap: 16px;
+}

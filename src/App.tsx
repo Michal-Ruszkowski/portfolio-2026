@@ -1,13 +1,25 @@
 import Experience from './components/Experience/Experience';
+import Footer from './components/Footer/Footer';
 import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
 import './styles/global.css';
 
 function App() {
   return (
-    <main>
-      <Hero />
-      <Experience />
-    </main>
+    <>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Hero />
+        <Projects />
+        <Experience />
+        <Skills />
+      </main>
+      <Footer />
+    </>
   );
 }
 
