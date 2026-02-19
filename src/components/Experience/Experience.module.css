@@ -10,7 +10,7 @@
 .timeline {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 100px;
 }
 
 .item {
