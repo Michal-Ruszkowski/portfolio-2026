@@ -10,19 +10,21 @@ interface ProjectCardProps {
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <article className={styles.card}>
-      <div className={styles.imageWrapper}>
-        {/* <img src={project.image} alt={project.title} className={styles.image} /> */}
-      </div>
-      
       <div className={styles.content}>
-        <Typography variant="tag" className={styles.category}>
-          {project.category}
-        </Typography>
-
         <Typography variant="h2" className={styles.title}>
           {project.title}
         </Typography>
 
+        <Typography variant="tag" className={styles.category}>
+          {project.category}
+        </Typography>
+      </div>
+
+      <div className={styles.imageWrapper}>
+        <img src={project.img} alt={project.title} className={styles.image} />
+      </div>
+      
+      <div className={styles.content}>
         <Typography variant="body" className={styles.description}>
           {project.description}
         </Typography>
@@ -36,12 +38,22 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <div className={styles.actions}>
           {project.linkLive && (
             <Button href={project.linkLive} variant="primary">
-              Otwórz projekt
+              Live Demo
+            </Button>
+          )}
+          {project.linkApple && (
+            <Button href={project.linkApple} variant="primary">
+              App Store
+            </Button>
+          )}
+          {project.linkGoogle && (
+            <Button href={project.linkGoogle} variant="primary">
+              Google Play
             </Button>
           )}
           {project.linkGithub && (
             <Button href={project.linkGithub} variant="outline">
-              Zobacz kod na GitHub
+              View Code
             </Button>
           )}
         </div>
