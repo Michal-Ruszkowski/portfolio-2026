@@ -31,13 +31,6 @@ a {
   transition: color 0.2s ease;
 }
 
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 img {
   max-width: 100%;
   display: block;
