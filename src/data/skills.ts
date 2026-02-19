@@ -24,6 +24,7 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       "React Native",
       "Expo Ecosystem",
+      "Firebase (Auth, Firestore, Storage)",
       "Geolocation & Geofencing APIs",
       "Mobile UI/UX Implementation",
       "Local Data Persistence",
@@ -36,6 +37,7 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       "JavaScript (ES6+) & TypeScript",
       "React.js",
+      "Firebase Integration",
       "Tailwind CSS & SCSS (BEM)",
       "State Management & API Integration",
       "GSAP Animations",
