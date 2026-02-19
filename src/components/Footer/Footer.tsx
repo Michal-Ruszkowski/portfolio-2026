@@ -54,7 +54,7 @@ const Footer = () => {
               className={styles.cvButton}
               download
             >
-              Front-End
+              Front-End Developer
             </Button>
             <Button 
               href="/cv/Michal_Ruszkowski_HTML_Email_Developer_CV.pdf" 
@@ -62,7 +62,7 @@ const Footer = () => {
               className={styles.cvButton}
               download
             >
-              Mobile
+              React Native Developer
             </Button>
             <Button 
               href="/cv/Michal_Ruszkowski_HTML_Email_Developer_CV.pdf" 
@@ -70,7 +70,7 @@ const Footer = () => {
               className={styles.cvButton}
               download
             >
-              HTML Email
+              HTML Email Developer
             </Button>
           </div>
         </div>
