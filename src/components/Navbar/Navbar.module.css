@@ -32,8 +32,6 @@
 }
 
 .navText {
-  font-size: 0.8rem;
-  font-weight: 400;
   letter-spacing: 1.2px;
   text-transform: lowercase;
   opacity: 0.5;
@@ -49,5 +47,9 @@
   .container {
     padding: 0 30px;
     justify-content: center;
+  }
+
+  .navLinks {
+    gap: 15px;
   }
 }

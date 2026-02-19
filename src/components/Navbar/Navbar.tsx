@@ -16,7 +16,7 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <li key={link.name}>
               <a href={link.href} className={styles.link}>
-                <Typography variant="body" className={styles.navText}>
+                <Typography variant="tag" className={styles.navText}>
                   {link.name}
                 </Typography>
               </a>

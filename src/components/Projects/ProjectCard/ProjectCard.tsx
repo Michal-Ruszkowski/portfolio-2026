@@ -11,7 +11,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
     <article className={styles.card}>
       <div className={styles.content}>
-        <Typography variant="h2" className={styles.title}>
+        <Typography variant="h2">
           {project.title}
         </Typography>
 

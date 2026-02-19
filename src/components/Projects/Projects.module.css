@@ -42,13 +42,7 @@
   letter-spacing: 2px;
 }
 
-.title {
-  font-size: 2.5rem;
-  margin: 0;
-}
-
 .description {
-  font-size: 1.15rem;
   line-height: 1.4;
   color: var(--color-text-muted);
 }
@@ -70,4 +64,14 @@
   margin-top: 20px;
   display: flex;
   gap: 16px;
+}
+
+@media (max-width: 480px) {
+  .actions {
+    flex-direction: column;
+  }
+  
+  .actions > * {
+    width: 100%;
+  }
 }
