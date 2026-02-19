@@ -48,13 +48,25 @@ const Footer = () => {
           </Typography>
           
           <div className={styles.cvRow}>
-            <Button href="/cv/michal-ruszkowski-frontend.pdf" variant="outline">
+            <Button 
+              href="/cv/michal-ruszkowski-frontend.pdf" 
+              variant="outline" 
+              className={styles.cvButton}
+            >
               Front-End
             </Button>
-            <Button href="/cv/michal-ruszkowski-mobile.pdf" variant="outline">
+            <Button 
+              href="/cv/michal-ruszkowski-mobile.pdf" 
+              variant="outline" 
+              className={styles.cvButton}
+            >
               Mobile
             </Button>
-            <Button href="/cv/michal-ruszkowski-email.pdf" variant="outline">
+            <Button 
+              href="/cv/michal-ruszkowski-email.pdf" 
+              variant="outline" 
+              className={styles.cvButton}
+            >
               HTML Email
             </Button>
           </div>
