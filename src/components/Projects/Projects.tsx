@@ -5,7 +5,7 @@ import Section from '../ui/Section/Section';
 
 const Projects = () => {
   return (
-    <Section id="projects" title="Wybrane Projekty" isAlternative={true}>
+    <Section id="projects" title="Featured Projects" isAlternative={true}>
       <div className={styles.grid}>
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />

@@ -3,10 +3,10 @@ import styles from './Navbar.module.css';
 
 const Navbar = () => {
   const navLinks = [
-    { name: 'projekty', href: '#projects' },
-    { name: 'kompetencje', href: '#skills' },
-    { name: 'doświadczenie', href: '#experience' },
-    { name: 'kontakt', href: '#contact' }
+    { name: 'skills', href: '#skills' },
+    { name: 'experience', href: '#experience' },
+    { name: 'projects', href: '#projects' },
+    { name: 'contact', href: '#contact' }
   ];
 
   return (

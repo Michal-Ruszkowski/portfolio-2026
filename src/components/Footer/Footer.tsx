@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <Section 
       id="contact" 
-      title="Porozmawiajmy o projektach" 
+      title="Let's talk about projects" 
       as="footer" 
     >
       <div className={styles.footerContent}>
@@ -19,7 +19,7 @@ const Footer = () => {
             variant="primary" 
             className={styles.mainEmail}
           >
-            Napisz e-mail
+            Send an email
           </Button>
 
           <div className={styles.socialLinks}>
@@ -44,28 +44,31 @@ const Footer = () => {
 
         <div className={styles.cvSection}>
           <Typography variant="tag" className={styles.cvLabel}>
-            Pobierz CV
+            Download CV
           </Typography>
           
           <div className={styles.cvRow}>
             <Button 
-              href="/cv/michal-ruszkowski-frontend.pdf" 
+              href="/cv/Michal_Ruszkowski_HTML_Email_Developer_CV.pdf" 
               variant="outline" 
               className={styles.cvButton}
+              download
             >
               Front-End
             </Button>
             <Button 
-              href="/cv/michal-ruszkowski-mobile.pdf" 
+              href="/cv/Michal_Ruszkowski_HTML_Email_Developer_CV.pdf" 
               variant="outline" 
               className={styles.cvButton}
+              download
             >
               Mobile
             </Button>
             <Button 
-              href="/cv/michal-ruszkowski-email.pdf" 
+              href="/cv/Michal_Ruszkowski_HTML_Email_Developer_CV.pdf" 
               variant="outline" 
               className={styles.cvButton}
+              download
             >
               HTML Email
             </Button>
