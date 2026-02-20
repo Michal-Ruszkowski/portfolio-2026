@@ -49,7 +49,7 @@ const Footer = () => {
           
           <div className={styles.cvRow}>
             <Button 
-              href="/cv/Michal_Ruszkowski_HTML_Email_Developer_CV.pdf" 
+              href="/cv/Michal_Ruszkowski_Front-End_Developer.pdf" 
               variant="outline" 
               className={styles.cvButton}
               download
@@ -57,7 +57,7 @@ const Footer = () => {
               Front-End Developer
             </Button>
             <Button 
-              href="/cv/Michal_Ruszkowski_HTML_Email_Developer_CV.pdf" 
+              href="/cv/Michal_Ruszkowski_React_Native_Developer.pdf" 
               variant="outline" 
               className={styles.cvButton}
               download
@@ -65,7 +65,7 @@ const Footer = () => {
               React Native Developer
             </Button>
             <Button 
-              href="/cv/Michal_Ruszkowski_HTML_Email_Developer_CV.pdf" 
+              href="/cv/Michal_Ruszkowski_HTML_Email_Developer.pdf" 
               variant="outline" 
               className={styles.cvButton}
               download
