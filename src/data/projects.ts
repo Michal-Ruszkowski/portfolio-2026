@@ -19,7 +19,7 @@ export const projects: Project[] = [
     tags: ["React", "Cloud Firestore", "Firebase Auth", "Real-time Data Sync", "NoSQL Architecture"],
     description: "A sophisticated real-time multiplayer Rummy platform engineered for high-concurrency gameplay. The application features a robust matchmaking system allowing users to play in public global rooms or private sessions with friends. Built on a serverless architecture using Cloud Firestore, it handles complex game state management, distributed data consistency, and instant player interactions. Key features include a comprehensive social module with friend requests, detailed player performance analytics, secure user authentication, and a scalable localization engine supporting 20 languages.",
     linkLive: "https://remigame.com/",
-    img: "images/rummy.png"
+    img: "images/rummy.webp"
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     description: "A dynamic mobile racing platform that gamifies real-world exploration through GPS-based checkpoint verification. The app leverages high-precision geolocation services to facilitate competitive scavenger hunts and global racing challenges. Built with React Native and Expo, it features a robust real-time synchronization layer for global leaderboards, a secure authentication system, and a multi-language localization engine (i18n). The architecture is optimized for low-latency point tracking and handles complex state management for concurrent live events across diverse geographic regions.",
     linkGoogle: "https://play.google.com/store/apps/details?id=com.michrusz.CheckPointRace",
     linkApple: "https://apps.apple.com/us/app/checkpointrace-travel-game/id6745142337",
-    img: "images/checkpointrace.png"
+    img: "images/checkpointrace.webp"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     description: "A high-performance travel tracking application featuring an interactive SVG-based world map for real-time journey visualization. The app allows users to manage a personal database of visited countries across all 193 UN-recognized nations. Engineered with a mobile-first approach, it includes local persistence for full offline functionality, dynamic progress calculation algorithms, and detailed travel statistics. The interface is optimized for fluid zoom-and-pan interactions, providing a seamless user experience for globetrotters to document and analyze their international footprint.",
     linkApple: "https://apps.apple.com/us/app/countrycheck-been-there/id6752218316",
     linkGoogle: "https://play.google.com/store/apps/details?id=com.michrusz.CountryCheck",
-    img: "images/countrycheck.png"
+    img: "images/countrycheck.webp"
   },
   {
     id: 4,
@@ -49,6 +49,6 @@ export const projects: Project[] = [
     description: "A robust group expense tracker designed with a privacy-first architecture, eliminating the need for server-side accounts. The application features a sophisticated debt-settlement engine that automatically calculates optimal payment paths between group members. It integrates with real-time exchange rate APIs to support over 190 currencies, including cryptocurrencies. Built with React Native, it manages complex relational data locally and provides extensive localization support for 31 languages, ensuring full functionality in offline environments while maintaining zero data footprint.",
     linkApple: "https://apps.apple.com/app/faircosts",
     linkGoogle: "https://play.google.com/store/apps/details?id=com.michrusz.FairCosts",
-    img: "images/faircosts.png"
+    img: "images/faircosts.webp"
   }
 ];
