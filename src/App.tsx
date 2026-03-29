@@ -14,9 +14,9 @@ function App() {
       </header>
       <main>
         <Hero />
-        <Skills />
-        <Experience />
         <Projects />
+        <Experience />
+        <Skills />
       </main>
       <Footer />
     </>

@@ -3,9 +3,9 @@ import styles from './Navbar.module.css';
 
 const Navbar = () => {
   const navLinks = [
-    { name: 'skills', href: '#skills' },
-    { name: 'experience', href: '#experience' },
     { name: 'projects', href: '#projects' },
+    { name: 'experience', href: '#experience' },
+    { name: 'skills', href: '#skills' },
     { name: 'contact', href: '#contact' }
   ];
 
