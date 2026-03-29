@@ -21,7 +21,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       </div>
 
       <div className={styles.imageWrapper}>
-        <img src={project.img} alt={project.title} className={styles.image} />
+        <img src={project.img} alt={project.title} className={styles.image} width={project.width} height={project.height}/>
       </div>
       
       <div className={styles.content}>
